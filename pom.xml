@@ -98,6 +98,13 @@
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>${slf4j.version}</version>
 		</dependency>
+		<!-- JBPM Executor -->
+		<dependency>
+			<groupId>uk.co.techblue</groupId>
+			<artifactId>jbpm-executor</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<!-- ends here -->
 	</dependencies>
 	<build>
 		<finalName>jbpm-integration</finalName>
