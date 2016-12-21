@@ -41,7 +41,7 @@ public abstract class BaseKnowledgeSessionInitializer {
             for (KnowledgeBuilderError error : errors) {
                 System.out.println(">>> Error:" + error.getMessage());
             }
-            throw new IllegalStateException(">>> Knowledge couldn't be parsed! ");
+            throw new IllegalStateException(">>> Knowledge ..couldn't be parsed! ");
         }
         KnowledgeBase kbase = KnowledgeBaseFactory.newKnowledgeBase();
         kbase.addKnowledgePackages(kbuilder.getKnowledgePackages());
